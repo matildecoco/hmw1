@@ -1,0 +1,172 @@
+body {
+    font-size: 20px;
+    background-color: rgb(191, 217, 221);
+}
+
+
+.Sub {
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #42b4d6;
+    margin-bottom: 20px;
+}
+
+
+c {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(156, 170, 172);
+    color:rgb(5, 14, 42);
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+ 
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(222, 237, 243);
+    font-family: Helvetica, sans-serif;
+    height: 200px;
+}
+
+
+#background {
+    background-image: url(europa.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.Profile img {
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: -50px;
+    width: 100px;
+    z-index: 1;
+}
+
+
+.Profile p {
+    margin-top: 50px;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: italic;
+    color:rgb(5, 14, 42);
+    text-align: center;
+    border-bottom: 2px solid #e6e6e6;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    color:aliceblue;
+    font-size:30px;
+    text-align: center;
+    width: 780px;
+}
+
+
+.NumberList {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    right: calc(100% + 40px);
+    color:rgb(5, 14, 42);
+}
+
+
+.Articolo {
+    position: relative;
+    width: 66.67%;
+}
+
+
+.Articolo img {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    margin-bottom: 120px;
+    margin-top: 20px;;
+}
+
+
+.Articolo voto{
+    position: relative;
+    top: 20px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    line-height: 32px;
+    color: rgb(5, 14, 42)
+}
+
+@media (max-width: 600px) {
+    #background {
+        height: 100%;
+        position: relative;
+        bottom:10px;
+    }
+
+    .NumberList {
+        left: -40px;
+    }
+
+
+
+}
+.titolo{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color:rgb(5, 14, 42);
+    margin-bottom:60px;
+}
+
+
+a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 23, 58);
+    height: 100px;
+}
+
+
+footer p{
+    font-family: 'Helvetica', cursive;
+    font-size: 20px;
+    color: rgb(192, 233, 226);
+    text-align: center;
+}
